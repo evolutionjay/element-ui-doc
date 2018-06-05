@@ -3,6 +3,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
   font-weight: normal;
 }
+#app .hljs {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
 #app.is-component {
   display: grid;
   grid-template-rows: 80px 1fr;
