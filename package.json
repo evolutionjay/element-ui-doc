@@ -1,0 +1,33 @@
+{
+  "name": "element-ui-doc",
+  "version": "1.0.0",
+  "description": "饿了么官网性能优化css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evolutionjay/element-ui-doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evolutionjay/element-ui-doc/issues"
+  },
+  "homepage": "https://github.com/evolutionjay/element-ui-doc#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.0",
+    "autoprefixer-core": "^6.0.1",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.5.0",
+    "gulp-postcss": "^7.0.1",
+    "less": "2.7.2",
+    "postcss": "6.0.0",
+    "postcss-less-engine": "^0.6.2",
+    "postcss-import": "11.1.0"
+  },
+  "dependencies": {}
+}
