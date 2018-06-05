@@ -22,10 +22,14 @@ body {
   -o-transition: unset;
   transition: unset;
 }
-#app .page-component .page-container {
+#app .page-component.page-container {
   display: grid;
   height: -webkit-calc(100vh - 80px);
   height: calc(100vh - 80px);
   grid-template-columns: 240px 1fr;
   grid-template-rows: 100%;
+}
+#app .page-component__scroll {
+  height: auto;
+  margin-top: 0;
 }
