@@ -6,38 +6,40 @@ body {
 }
 
 #app {
+  .demo-block,
   .hljs {
     border-radius: 0;
   }
-  &.is-component {
-    .headerWrapper {
-      position: relative;
-    }
-    display: grid;
-    grid-template-rows: 80px 1fr;
-  }
 
-  .page-component {
-    .page-component__content {
-      padding: 0;
-      height: 100%;
-      overflow: auto;
-    }
-    .page-component__nav {
-      position: relative;
-      margin-top: 0;
-      transition: unset;
-    }
-    &.page-container {
-      display: grid;
-      height: ~"calc(100vh - 80px)";
-      grid-template-columns: 240px 1fr;
-      grid-template-rows: 100%;
-    }
-  }
+  // &.is-component {
+  //   .headerWrapper {
+  //     position: relative;
+  //   }
+  //   display: grid;
+  //   grid-template-rows: 80px 1fr;
+  // }
 
-  .page-component__scroll {
-    height: auto;
-    margin-top: 0;
-  }
+  // .page-component {
+  //   .page-component__content {
+  //     padding: 0;
+  //     height: 100%;
+  //     overflow: auto;
+  //   }
+  //   .page-component__nav {
+  //     position: relative;
+  //     margin-top: 0;
+  //     transition: unset;
+  //   }
+  //   &.page-container {
+  //     display: grid;
+  //     height: ~"calc(100vh - 80px)";
+  //     grid-template-columns: 240px 1fr;
+  //     grid-template-rows: 100%;
+  //   }
+  // }
+
+  // .page-component__scroll {
+  //   height: auto;
+  //   margin-top: 0;
+  // }
 }

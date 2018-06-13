@@ -3,37 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
   font-weight: normal;
 }
+#app .demo-block,
 #app .hljs {
   -webkit-border-radius: 0;
   border-radius: 0;
-}
-#app.is-component {
-  display: grid;
-  grid-template-rows: 80px 1fr;
-}
-#app.is-component .headerWrapper {
-  position: relative;
-}
-#app .page-component .page-component__content {
-  padding: 0;
-  height: 100%;
-  overflow: auto;
-}
-#app .page-component .page-component__nav {
-  position: relative;
-  margin-top: 0;
-  -webkit-transition: unset;
-  -o-transition: unset;
-  transition: unset;
-}
-#app .page-component.page-container {
-  display: grid;
-  height: -webkit-calc(100vh - 80px);
-  height: calc(100vh - 80px);
-  grid-template-columns: 240px 1fr;
-  grid-template-rows: 100%;
-}
-#app .page-component__scroll {
-  height: auto;
-  margin-top: 0;
 }
